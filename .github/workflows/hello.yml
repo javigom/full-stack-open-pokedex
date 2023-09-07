@@ -10,4 +10,7 @@ jobs:
     steps:
       - name: Echo the message
         run: echo "Hello, world!"
-            
+      - name: Write the date
+        run: date
+      - name: List files
+        run: ls -al            
